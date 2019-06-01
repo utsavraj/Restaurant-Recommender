@@ -1,6 +1,6 @@
 @Version 1
 
-Accepts input file named as 'input.txt'
+Accepts input file named as 'input.txt' (one already added for testing)
 
 
 
@@ -54,5 +54,6 @@ KNOWN AREAS FOR IMPROVEMENTS:
       
       
 IDEAS FOR @Version 2
-    - Budget can be in different currency
-    - Accept multiple menus and give different recommendations based on the menu
+    - Budget can be in different currency.
+    - Accept multiple menus and give different recommendations based on the menu.
+    - Accept multiple txt files.

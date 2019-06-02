@@ -38,5 +38,38 @@ Accepts input file named as 'input.txt' (one already added for testing)
 
     Total Spending: $ 99.00
     
-X
+    
+KNOWN AREAS FOR IMPROVEMENTS:
+-------
+* Goes through highest prices first and does not take other combination into account.
+    
+    EXAMPLE::
+    
+      For input:
+      1000
+      Onigiri**********************450
+      WacDonald Burger*************200
+      Water************************350
+      
+      @Version 1 Output:
+      **RECOMMENDATION**
+      Onigiri x 2
+
+      Total Spending: $ 900.00
+      
+      Better Output:
+      Onigiri x 1
+      Water x 1
+      WacDonald Burger x 1
+      
+      Total Spending: $ 1000.00    
+      
+      
+IDEAS FOR @Version 2
+-------
+
+* Budget can be in different currency.
+* Accept multiple menus and give different recommendations based on the menu.
+* Accept multiple txt files.
+
 

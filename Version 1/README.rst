@@ -1,7 +1,7 @@
-@Version 1
+Restaurant-Recommender @Version 1
 =====
 
-Based on a budgets, recommends you what to buy and how much from a single menu.
+Based on a budget, recommends you what to buy and how much from a single menu.
 
 
 Description

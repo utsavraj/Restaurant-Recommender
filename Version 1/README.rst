@@ -21,7 +21,11 @@ INPUT FILE INFO:
 To get started, after cloning the `repository`_, you should install the
 development dependencies::
 
-    100 
+    100
+    Ichiraku Ramen***************42 
+    EndGame Coke 0***************06
+    Warai Azami******************02
+    Potato Chips*****************11
 
 If you prefer to keep things isolated you can create a virtual
 environment::

@@ -14,18 +14,6 @@ INPUT FILE INFO:
 * The next lines are menu items and their corresponding prices seperated by '*' for allignment.
 
 EXAMPLE:
-    100
-    Ichiraku Ramen***************42
-    EndGame Coke 0***************06
-     
-     
-    
-    Warai Azami******************02
-    Potato Chips*****************11
-
-ach YAML file represents an ordered list of HTTP requests along with
-the expected responses. This allows a single file to represent a
-process in the API being tested. For example:
-
-* Delete a resource.
-* Retrieve a resource again to confirm it is gone.
+    $ virtualenv gabbi-venv
+    $ . gabbi-venv/bin/activate
+    $ pip install -r requirements-dev.txt

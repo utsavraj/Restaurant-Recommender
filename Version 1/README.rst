@@ -21,7 +21,7 @@ INPUT FILE INFO:
 To get started, after cloning the `repository`_, you should install the
 development dependencies::
 
-    $ 100 
+    100 
 
 If you prefer to keep things isolated you can create a virtual
 environment::

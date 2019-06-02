@@ -18,7 +18,7 @@ INPUT FILE INFO:
 * The next lines are menu items and their corresponding prices seperated by '*' for allignment.
 
 
-EXAMPLE:
+EXAMPLE::
 
     100
     Ichiraku Ramen***************42 

@@ -10,6 +10,15 @@ Description
 Accepts input file named as 'input.txt' (one already added for testing)
 
 INPUT FILE INFO:
+Each YAML file represents an ordered list of HTTP requests along with
+the expected responses. This allows a single file to represent a
+process in the API being tested. For example:
+
+* Create a resource.
+* Retrieve a resource.
+* Delete a resource.
+* Retrieve a resource again to confirm it is gone.
+
 * Create a resource.
 * Retrieve a resource.
 * Delete a resource.

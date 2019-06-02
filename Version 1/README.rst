@@ -13,7 +13,6 @@ INPUT FILE INFO:
 * First line is the budget. NOTE: The budget cannot be negative.
 * The next lines are menu items and their corresponding prices seperated by '*' for allignment.
 
-EXAMPLE:
     $ virtualenv gabbi-venv
     $ . gabbi-venv/bin/activate
     $ pip install -r requirements-dev.txt

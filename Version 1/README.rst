@@ -10,10 +10,19 @@ Description
 Accepts input file named as 'input.txt' (one already added for testing)
 
 INPUT FILE INFO:
-* First line is the budget. NOTE: The budget cannot be negative.
+* First line is the budget. *NOTE*: The budget cannot be negative.
 * The next lines are menu items and their corresponding prices seperated by '*' for allignment.
 
-EXAMPLE:
+
+To get started, after cloning the `repository`_, you should install the
+development dependencies::
+
+    $ pip install -r requirements-dev.txt
+
+If you prefer to keep things isolated you can create a virtual
+environment::
+
     $ virtualenv gabbi-venv
     $ . gabbi-venv/bin/activate
     $ pip install -r requirements-dev.txt
+

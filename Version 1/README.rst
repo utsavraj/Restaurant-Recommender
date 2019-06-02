@@ -23,10 +23,20 @@ EXAMPLE::
     Warai Azami******************02
     Potato Chips*****************11
 
-If you prefer to keep things isolated you can create a virtual
-environment::
 
-    $ virtualenv gabbi-venv
-    $ . gabbi-venv/bin/activate
-    $ pip install -r requirements-dev.txt
+OUTPUT FILE INFO:
+
+* First few lines shows the menu items and their corresponding quantities to buy.
+* Last line shows the total spending. This can be equal to the budegt or LOWER.
+
+EXAMPLE::
+
+    **RECOMMENDATION**
+    Potato Chips x 1
+    Warai Azami x 2
+    Ichiraku Ramen x 2
+
+    Total Spending: $ 99.00
+    
+X
 

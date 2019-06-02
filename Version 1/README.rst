@@ -18,8 +18,7 @@ INPUT FILE INFO:
 * The next lines are menu items and their corresponding prices seperated by '*' for allignment.
 
 
-To get started, after cloning the `repository`_, you should install the
-development dependencies::
+EXAMPLE:
 
     100
     Ichiraku Ramen***************42 

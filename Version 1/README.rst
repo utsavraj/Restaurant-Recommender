@@ -20,3 +20,11 @@ EXAMPLE:
     Warai Azami******************02
     Potato Chips*****************11
 
+ach YAML file represents an ordered list of HTTP requests along with
+the expected responses. This allows a single file to represent a
+process in the API being tested. For example:
+
+* Create a resource.
+* Retrieve a resource.
+* Delete a resource.
+* Retrieve a resource again to confirm it is gone.
